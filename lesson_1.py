@@ -69,7 +69,7 @@ print(f'MODEL: {best_car.model} YEAR: {best_car.year} NEW COLOR: {best_car.color
       f'PENALTIES: {best_car.penalties}')
 
 my_car.drive('Osh')
-best_car.drive('Kant')
+best_car.drive('Kant') 
 best_car.drive('Tokmok')
 best_car.signal(3, 'Beep')
 
