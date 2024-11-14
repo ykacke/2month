@@ -1,25 +1,25 @@
-class Calculator:
-    @staticmethod
-    def addition(a, b):
-        return a + b
-
-    @staticmethod
-    def subtraction(a, b):
-        return a - b
-
-
-class Person:
-    def __init__(self, name, age):
-        self.__name = name
-        self.__age = age
-
-    @property
-    def name(self):
-        return self.__name
-
-    @property
-    def age(self):
-        return self.__age
+# class Calculator:
+#     @staticmethod
+#     def addition(a, b):
+#         return a + b
+#
+#     @staticmethod
+#     def subtraction(a, b):
+#         return a - b
+#
+#
+# class Person:
+#     def __init__(self, name, age):
+#         self.__name = name
+#         self.__age = age
+#
+#     @property
+#     def name(self):
+#         return self.__name
+#
+#     @property
+#     def age(self):
+#         return self.__age
 
 
 class Car:
