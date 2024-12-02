@@ -105,6 +105,23 @@ my_connection = create_connection('hw.db')
 
 if my_connection:
     print('Connected succesfully!')
+
+    create_table(my_connection, sql_to_create_products_table)
+    insert_products(my_connection, ('Jibek Manasova', 2400.5, 'Programming', '2000-01-25', False))
+    insert_products(my_connection, ('Mark Daniels', 1500.0, 'Football', '1999-01-02', False))
+    insert_products(my_connection, ('Alex Brilliant', 2300.5, None, '1989-12-31', True))
+    insert_products(my_connection, ('Diana Julls', 1800.0, 'Programming', '2005-01-22', True))
+    insert_products(my_connection, ('Michael Corse', 1800.0, 'Football', '2001-09-17', True))
+    insert_products(my_connection, ('Jack Moris', 2100.2, 'Programming', '2001-07-12', True))
+    insert_products(my_connection, ('Viola Manilson', 1750.82, None, '1991-03-01', False))
+    insert_products(my_connection, ('Joanna Moris', 1000.0, 'Football', '2004-04-13', False))
+    insert_products(my_connection, ('Peter Parker', 2000.0, 'Programming', '2002-11-28', False))
+    insert_products(my_connection, ('Paula Parkerson', 800.09, None, '2001-11-28', True))
+    insert_products(my_connection, ('George Newel', 1320.0, 'Programming', '1981-01-24', True))
+    insert_products(my_connection, ('Miranda Alistoun', 2500.55, 'Football', '1997-12-22', False))
+    insert_products(my_connection, ('Valeria Hillton', 2000, 'Football', '1977-10-28', True))
+    insert_products(my_connection, ('Jannet Miler', 2100.9, 'Programming', '1997-02-02', True))
+
     create_table(my_connection, sql_to_create_products_table)
     insert_products(my_connection, ('Vanilla Ice_cream', 120.0, 10))
     insert_products(my_connection, ('Chocolate Ice_cream', 150.0, 20))
